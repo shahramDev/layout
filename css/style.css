@@ -1,0 +1,58 @@
+body {
+    margin: 1vh 0 1vh;
+    height: 98vh;
+    background-color: rgb(132, 250, 177);
+}
+#layout {
+    background-color: rgb(227, 50, 243);
+    border: 0.5vmin solid red;
+    margin: 0 auto;
+    width: calc(50vw - 1vmin);
+    height: calc(100% - 1vmin);
+}
+#header {
+    border: 0.5vmin solid blue;
+    width: calc(100% - 1vmin);
+    height: calc(20% - 1vmin);
+}
+#body {
+    border: 0.5vmin solid blue;
+    width: calc(100% - 1vmin);
+    height: calc(60% - 1vmin);
+}
+#sidebar {
+    border: 0.5vmin solid yellow;
+    float: right;
+    width: calc(30% - 1vmin);
+    height: calc(100% - 1vmin);
+}
+#content {
+    border: 0.5vmin solid brown;
+    float: left;
+    width: calc(70% - 1vmin);
+    height: calc(100% - 1vmin);
+}
+#footer {
+    border: 0.5vmin solid blue;
+    width: calc(100% - 1vmin);
+    height: calc(20% - 1vmin);
+}
+.fixed {
+    position: fixed;
+    bottom: 1vh;
+    left: 5vh;
+    height: 10vh;
+    width: 40vh;
+    background-color: rgb(248, 108, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    display : flex;
+    justify-content : center;
+}
+a {
+    text-decoration: none;
+    color: firebrick;
+}
